@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Question 4</title>
+    <link href="question-4.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <form novalidate name="address" id="frm-address">
+      <h1>My Address</h1>
+
+      <div class="input-field-container">
+        <label for="name">Name </label>
+        <input type="text" name="name" id="npt-name" pattern="[A-Za-z]{1,100}" required title="1 to 100 long alpha chars only!">
+        <span></span>
+      </div>
+
+      <div class="input-field-container">
+        <label for="name">Address 1 </label>
+        <input type="text" name="address1" id="npt-address1" pattern="[A-Za-z0-9]{1,100}" required title="1 to 100 long alphanumeric chars only!">
+        <span></span>
+      </div>
+
+      <div class="input-field-container">
+        <label for="name">Address 2 </label>
+        <input type="text" name="address2" id="npt-address2" pattern="[A-Za-z0-9]{0,100}" title="0 to 100 long alphanumeric chars only!">
+        <span></span>
+      </div>
+
+      <div class="input-field-container">
+        <label for="name">City </label>
+        <input type="text" name="city" id="npt-city" pattern="[A-Za-z0-9]{0,50}" required title="0 to 50 long alphanumeric chars only!">
+        <span></span>
+      </div>
+
+      <div class="input-field-container">
+        <label for="name">State </label>
+        <select name="state" id="npt-state" pattern="[A-Z]{2}" required title="Only 2 upercase alpha chars allowed!">
+          <option value="">-- Select --</option>
+          <option value="AA">First State</option>
+          <option value="AB">Second State</option>
+          <option value="AC">Third State</option>
+        </select>
+        <span></span>
+      </div>
+
+      <div class="input-field-container">
+        <label for="name">Zip </label>
+        <input type="text" name="zip" id="npt-zip" pattern="[0-9]{5}" required title="Only 5 numeric chars allowed!">
+        <span></span>
+      </div>
+
+      <div class="buttons-container">
+        <button id="btn-ok">OK</button>
+        <button id="btn-cancel">Cancel</button>
+      </div>
+    </form>
+
+    <script src="question-4.js"></script>
+  </body>
+
+</html>
