@@ -45,4 +45,4 @@ Question 4 was requiring some validation logic so I created separate validator i
 
 3- [question-4.css](https://github.com/furqanaziz/js-exercise-1/blob/master/question-4.css) Very precise CSS style to look HTML page pretty.
 
-**PS: I tried my best to perform well alongwith explaining things in this README.md, but still in case of any convinience I apologize in advance.**
+**PS: I tried my best to perform well alongwith explaining things in this README.md, but still in case of any inconvinience I apologize in advance.**
