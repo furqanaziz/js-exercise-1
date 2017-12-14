@@ -6,24 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Question 2, 3</title>
+    <link href="question-2-3.css" rel="stylesheet" />
   </head>
 
   <body>
-    <div class="ajax-container">
-      <input name="server-url" id="npt-server-url" value="http://localhost:9685" />
-      <button id="btn-fetch-json">Fetch JSON</button>
-    </div>
+    <form onsubmit="return false;">
+      <h1>Fetch JSON and Find Node</h1>
+      <div class="input-field-container ajax-container">
+        <input name="server-url" id="npt-server-url" value="http://localhost:9685" placeholder="Server URL" />
+        <button id="btn-fetch-json">Fetch JSON</button>
+      </div>
 
-    <div class="search-container">
-      <input name="node-id" id="npt-node-id" />
-      <button id="btn-find-node">Find Node</button>
-    </div>
+      <div class="input-field-container search-container">
+        <input name="node-id" id="npt-node-id" placeholder="Node Id to find" />
+        <button id="btn-find-node">Find Node</button>
+      </div>
 
-    <div class="search-result">
+      <div class="search-result">
 
-    </div>
-
+      </div>
+    </form>
     <div class="json-data-viewer">
+      <h1>JSON Data</h1>
       <pre>
 
       </pre>

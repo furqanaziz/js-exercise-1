@@ -5,7 +5,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-form{
+form, .json-data-viewer{
   width: 450px;
   margin: 0 auto;
   border: 2px solid #AAAAAA;
@@ -13,20 +13,16 @@ form{
   padding: 50px;
 }
 
-form h1{
+.json-data-viewer{
+  margin-top: 40px; 
+}
+
+h1{
  margin-top: 0px; 
 }
 
 .input-field-container {
   padding-bottom: 20px;
-}
-
-.input-field-container label {
-  min-width: 100px;
-  display: inline-block;
-  text-align: right;
-  padding-right: 10px;
-  font-weight: 500;
 }
 
 .input-field-container input{
@@ -35,34 +31,7 @@ form h1{
   font-size: 14px;
   min-width: 300px;
   background: white;
-}
-
-.input-field-container select {
-  height: 32px;
-  border: none;
-  font-size: 14px;
-  min-width: 302px;
-  background: white;
-}
-
-.input-field-container .select-outer {
-  border: 1px solid lightgrey;
-  display: inline-block;
-}
-
-.input-field-container span {
-  color: crimson;
-  display: block;
-  margin-left: 115px;
-  margin-top: 5px;
-}
-
-.input-field-container .error {
-  border-left: 5px solid crimson;
-}
-
-.input-field-container .success {
-  border-left: 5px solid forestgreen;
+  vertical-align: middle;
 }
 
 .buttons-container {

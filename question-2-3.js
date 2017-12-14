@@ -9,7 +9,6 @@
     }
 
     regElementRefs() {
-      this.ajaxContainer = document.querySelector('.ajax-container');
       this.inputServerUrl = document.querySelector('#npt-server-url');
       this.buttonFetchJSON = document.querySelector('#btn-fetch-json');
 
