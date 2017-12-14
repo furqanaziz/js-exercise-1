@@ -53,7 +53,7 @@
     regFieldValidators() {
       this.everyFormField((_field) => {
         _field.validator = new Validator(_field);
-        _field.error_view = _field.closest('div').querySelector('span');
+        _field.error_view = _field.closest('div.input-field-container').querySelector('span');
       });
     }
 

@@ -17,12 +17,25 @@ body {
   font-weight: 500;
 }
 
-.input-field-container input,
-.input-field-container select {
+.input-field-container input{
   height: 30px;
   border: 1px solid lightgrey;
   font-size: 14px;
   min-width: 300px;
+  background: white;
+}
+
+.input-field-container select {
+  height: 32px;
+  border: none;
+  font-size: 14px;
+  min-width: 302px;
+  background: white;
+}
+
+.input-field-container .select-outer {
+  border: 1px solid lightgrey;
+  display: inline-block;
 }
 
 .input-field-container span {
